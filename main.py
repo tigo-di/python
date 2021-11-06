@@ -10,6 +10,8 @@ message = """Choose a tiny Python code to execute:
 4 - Multiple Of a Number
 5 - Triangle Area
 6 - Number of Dividers of a Positive Integer
+7 - List - append and len
+8 - List - general
 
 """
 
@@ -19,6 +21,8 @@ import scopeVariables
 import multipleOfANumber
 import triangleArea
 import numberOfDividersOfAPositiveInteger
+import listAppendLen
+import listGeneral
 
 
 while True:
@@ -41,6 +45,10 @@ while True:
     triangleArea.main()
   elif (code == 6):
     numberOfDividersOfAPositiveInteger.main()
+  elif (code == 7):
+    listAppendLen.main()
+  elif (code == 8):
+    listGeneral.main()
 
 
   print("\n\n\n----#----\n\n") 

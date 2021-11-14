@@ -12,6 +12,7 @@ message = """Choose a tiny Python code to execute:
 6 - Number of Dividers of a Positive Integer
 7 - List - append and len
 8 - List - general
+9 - List - Name book
 
 """
 
@@ -23,6 +24,8 @@ import triangleArea
 import numberOfDividersOfAPositiveInteger
 import listAppendLen
 import listGeneral
+import listNameBook
+
 
 
 while True:
@@ -49,6 +52,8 @@ while True:
     listAppendLen.main()
   elif (code == 8):
     listGeneral.main()
+  elif (code == 9):
+    listNameBook.main()
 
 
   print("\n\n\n----#----\n\n") 
